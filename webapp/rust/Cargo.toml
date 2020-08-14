@@ -1,0 +1,33 @@
+[package]
+name = "isucon"
+version = "0.1.0"
+authors = ["Kogia-sima <orcinus4627@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.115"
+serde_derive = "1.0.115"
+actix-web = "3.0.0-beta.1"
+actix-rt = "1.1.1"
+mysql_async = "0.24.0"
+awc = "2.0.0-beta.2"
+serde_json = "1.0.57"
+thiserror = "1.0.20"
+bytes = "0.5.6"
+chrono = { version = "0.4.13", features = ["serde"] }
+actix-files = "0.3.0-beta.1"
+futures = "0.3.5"
+rand = { version = "0.7.3", features = ["small_rng"] }
+actix-web-codegen = "0.3.0-beta.1"
+tokio = { version = "0.2.22", features = ["fs"] }
+env_logger = "0.7.1"
+bcrypt = "0.8.2"
+log = "0.4.11"
+actix-session = "0.4.0-alpha.1"
+
+[dependencies.awmp]
+git = "https://github.com/Kogia-sima/awmp"
+default-features = false
+features = ["v3"]
