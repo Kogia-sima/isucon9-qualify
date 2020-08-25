@@ -1,4 +1,4 @@
-# isucon9-qualify
+# Rust re-implementation of ISUCON 9 qualify
 
 ## ディレクトリ構成
 
